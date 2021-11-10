@@ -1,0 +1,8 @@
+
+public class Viagem {
+	private String destino;
+	private int diaViagem;
+	private int mesViagem;
+	
+	
+}

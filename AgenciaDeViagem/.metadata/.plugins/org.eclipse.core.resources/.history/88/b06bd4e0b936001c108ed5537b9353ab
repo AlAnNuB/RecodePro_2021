@@ -1,0 +1,9 @@
+
+public class Viagem {
+	private String[] destino = new String[3];
+	private int[] diaViagem = new int[3];
+	private int[] mesViagem = new int[3];
+	
+	
+	
+}
