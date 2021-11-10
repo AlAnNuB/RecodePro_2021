@@ -1,5 +1,9 @@
 # Entrega_Modulo2_Recode
- Minha primeira entrega de trabalho no curso Recode Pro 2021  com descrição:
+
+Minha primeira entrega de atividade no curso Recode Pro 2021  com meus primeiros contatos com logica de programação e com linguegem Java.
+ 
+ 
+ Descrição da atividade:
 
 "Olá, Estudante!  
 
@@ -42,6 +46,8 @@ Agora é só aguardar o feedback do seu monitor!
  
 
 Boa sorte! "
+
+
 
 
 Data limite de estrega: 28/10/2021
