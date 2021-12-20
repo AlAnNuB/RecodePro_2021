@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+nav {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); 
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+#LogoHome img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  padding-left: 30px;
+  -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#LogoHome img:hover {
+  -moz-transform: scale(2.2);
+	-webkit-transform: scale(2.2);
+	transform: scale(2.2);
+}
+
+ul li a:hover {
+  background-color: rgb(54, 54, 228);
+  color:rgb(255, 255, 255);
+  border-radius: 10px;
+  transition: all .4s ease-in-out;
+  cursor:pointer;
+}
+
+ul li a:focus {
+  background-color: rgb(126, 172, 241);
+  color: grey;
+  cursor: progress;
+}
+
+#FormasPagamentos {
+ text-align: center;
+}  
+
+#FormasPagamentos img {
+  height: 100px;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width:100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+  margin-bottom: 10px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  font-size: 12px;
+  justify-content: space-evenly;
+}
+
+footer p {
+   font-size: 12px;
+   text-align: center;
+}
+
+.MainHome {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.Entrada {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+.Entrada img {
+  margin-top: 50px;
+  margin-bottom: 50px;  
+  width: 500px;
+  height: 500px;
+ clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);  
+}
+.TextoEntrada {
+  text-align: center;
+}
+.TextoEntrada h1 {
+  background-color: #CDB380;
+  border-radius: 40px;
+  margin-top: -10%;
+  color: #031634;
+  font-weight: bold;
+  font-size: 70px;
+}
+.TextoEntrada h3 {
+  font-size: 40px;
+  margin-top: 10%;
+  margin: 40px;
+  text-align: center;
+  color: #033649;
+}
+
+
+.MainDestinos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.destinos {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 300px;
+  border-radius: 20px;
+  border: 3px solid transparent;
+  overflow: hidden;
+  margin: 10px;
+  background-color: #ffffff;
+}
+.destinos:hover {
+  border: 3px solid #036564;
+  transition: all .3s ease-in-out;
+}
+.destinoImagem {
+  height: 170px;
+}
+.destinoImagem img {
+  width: 100%;
+  height: 100%;
+  -moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.destinoImagem:hover {
+  -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.destinoDescricao {
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.destinoDescricaoNome {
+  font-size: 30px;
+  font-weight: bold;
+  color: #033649;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.destinoDescricaoData {
+  padding: 5px;
+  font-size: smaller;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.destinoDescricaoPreco {
+  font-size: 20px;
+  color: red;
+  background-color: #E8DDCB;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.TituloPromocao {
+  font-weight: bold;
+  color: #031634;
+  text-align: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.MainPromocoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.MainContato {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.ContatoForm ul {
+ display: grid;
+ text-align: left;
+ font-size: 20px;
+ padding: 10px;
+ margin: 10px;
+ color: #036564;
+ border-radius: 10px;
+}
+.ContatoForm h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #031634;
+}
+.ContatoForm {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px black;
+}
+.contatoEnviar button {
+  width: 70px;
+  height: 30px;
+  background-color: #031634;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.contatoEnviar button:hover {
+  background-color: #036564;
+}
