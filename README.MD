@@ -1,6 +1,15 @@
 Atividade Prática do Módulo 3 Tarefa
 Aberto: quinta, 2 dez 2021, 00:00
 Vencimento: sexta, 17 dez 2021, 23:59
+
+
+
+Nota: 4.0 de 10.0.
+Obs: Poderia ter usado mais tags semânticas no html. Faltou a modelagem e o Projeto com mvc. Poderia ter ...
+
+
+
+
 Olá, Estudante! 
 
 Nesta atividade, vamos dar continuidade à criação do site para a agência de viagens.  Nesta entrega, contemple uma estrutura de layout com um menu horizontal na parte superior de todas as páginas: HOME, DESTINOS, PROMOCOES, CONTATO. Não esqueça que está atividade deve ser realizada individualmente.  
