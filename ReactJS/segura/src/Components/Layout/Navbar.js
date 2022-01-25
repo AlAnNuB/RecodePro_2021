@@ -12,6 +12,7 @@ return (
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Destinos">Destinos</Link></li>
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Promocao">Promoção</Link></li>
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Contato">Contato</Link></li>
+      <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Carrinho">Carrinho</Link></li>
   </ul>
 </nav>
 
