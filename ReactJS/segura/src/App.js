@@ -6,6 +6,7 @@ import Home from './Components/Pages/Home'
 import Destinos from './Components/Pages/Destinos'
 import Promocao from './Components/Pages/Promocao'
 import Contato from './Components/Pages/Contato'
+import Footer from './Components/Layout/Footer';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route path="/Promocao" element={<Promocao />} />
           <Route path="/Contato" element={<Contato />} />
       </Routes>
-
+      <Footer />
     </Router>
 
   );
