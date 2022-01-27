@@ -27,7 +27,7 @@ function Contato() {
       <div className="row">
         <div className="col-12 col-sm-6 mb-5 mt-3">
           <figure>
-            <video className="mt-5 embed-responsive embed-responsive-16by9" id="Video" width="600" height="400" autoplay loop muted>
+            <video className="mt-5 embed-responsive embed-responsive-16by9 rounded" id="Video" width="600" height="400" autoplay="true" loop muted>
               <source className="embed-responsive-item" src={VideoAviao} type="video/mp4" />
             </video>
           </figure>

@@ -1,5 +1,12 @@
+import Container from "../Layout/Container"
+
 function Carrinho() {
-  return <h1>Não tem nada aqui! cai fora</h1>
+  return (
+  <Container>
+    
+      <h1 className="d-flex alig justify-content-center">Não tem nada aqui! cai fora</h1>
+  </Container>
+  )
 }
 
 export default Carrinho

@@ -8,6 +8,10 @@ function Card(props) {
           <p class="card-text small m-0">Ida: {props.ida}</p>
           <p class="card-title text-danger font-weight-bold"><strong>R$ {props.preco}</strong></p>
         </div>
+        <button type="submit" onClick={Incrementar} className="btn btn-outline-danger justify-content-center align-items-center m-2">
+          <i class="bi bi-cart-plus-fill"> </i> 
+          Comprar
+        </button>  
       </div>
     </div>
   );

@@ -9,6 +9,10 @@ function CardDesconto(props) {
           <p class="card-text small m-0">De: R$ {props.desconto}</p>
           <p class="card-title text-danger font-weight-bold"><strong>R$ {props.preco}</strong></p>
         </div>
+        <button type="submit" className="btn btn-outline-danger justify-content-center align-items-center mt-n5 mb-5 mx-2">
+          <i class="bi bi-cart-plus-fill"> </i>
+          Comprar
+        </button>
       </div>
     </div>
   );
