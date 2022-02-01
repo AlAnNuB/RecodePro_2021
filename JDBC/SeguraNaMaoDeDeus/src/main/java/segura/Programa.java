@@ -46,15 +46,11 @@ public class Programa {
 			resp = scan.nextInt();
 
 			if (resp == 1) {
-				String Nome = "";
-				int Viagem = 0;
-				String CPF = "";
-				
 				System.out.println("Digite o seu nome: ");
 				scan.skip("((?<!\\R)\\s)*");
-				Nome = scan.nextLine();
+				String Nome = scan.nextLine();
 				System.out.println("Digite o seu CPF: ");
-				CPF = scan.next();
+				String CPF = scan.next();
 				scan.skip("((?<!\\R)\\s)*");
 				System.out.println("Escolha uma das viagens:");
 			      System.out.println("1 - Alagoas ida: 29/04/2022 Preço: R$ 3.280,00");
@@ -70,7 +66,7 @@ public class Programa {
 			      System.out.println("11 - Rio de Janeiro ida: 29/04/2022 preco: R$1.853,00");
 			      System.out.println("12 - Salvador ida: 15/06/2022 preco: R$5.268,00");
 			      System.out.println("13 - Tocantins ida: 13/06/2022 preco: R$5.196,00");
-			      Viagem = scan.nextInt();
+			      int Viagem = scan.nextInt();
 			      scan.skip("((?<!\\R)\\s)*");
 			      
 				bd.Cadastrar(Nome, CPF, Viagem);
@@ -79,25 +75,20 @@ public class Programa {
 				bd.Consulta();
 			}else
 			if (resp == 3) {
-				int ID = 0;
-				String Nome = "";
-				int Viagem = 0;
-				String CPF = "";
 				System.out.println("Digite o ID da compra que deseja alterar:");
-				ID = scan.nextInt();
+				int ID = scan.nextInt();
 				System.out.println("Digite o novo nome:");
 				scan.skip("((?<!\\R)\\s)*");
-				Nome = scan.nextLine();
+				String Nome = scan.nextLine();
 				System.out.println("Digite o CPF correto:");
-				CPF = scan.next();
+				String CPF = scan.next();
 				System.out.println("Digite o codigo de cadastro da viagem: (1 a 13)");
-				Viagem = scan.nextInt();
+				int Viagem = scan.nextInt();
 				bd.Atualizar(ID, Nome, CPF, Viagem);
 			}else
 			if (resp == 4) {
-				int ID = 0;
 				System.out.println("Digite o ID da compra para cancelar!");
-				ID = scan.nextInt();
+				int ID = scan.nextInt();
 				bd.Deletar(ID);
 			}else
 			if (resp == 5) {
