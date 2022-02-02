@@ -18,8 +18,8 @@ function Destinos() {
   return (
     <main>
 
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <Cards nome="Alagoas" img={Alagoas} ida="29/04/2022" preco="3.280,00" />
           <Cards nome="Amazonas" img={Amazonas} ida="29/03/2022" preco="4.470,00" />
           <Cards nome="Ceará" img={Ceara} ida="25/02/2022" preco="8.753,00" />

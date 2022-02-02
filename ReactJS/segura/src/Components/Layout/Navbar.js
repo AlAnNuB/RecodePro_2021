@@ -15,7 +15,8 @@ return (
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Carrinho">
         <i class="bi bi-cart3"> </i>
         Carrinho
-        </Link></li>
+        </Link>
+      </li>
   </ul>
 </nav>
 
