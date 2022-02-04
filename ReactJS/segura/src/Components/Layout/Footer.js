@@ -1,3 +1,4 @@
+import React from 'react';
 import BandeirasCartao from '../IMG/BandeirasCartao.png'
 function Footer() {
   return (

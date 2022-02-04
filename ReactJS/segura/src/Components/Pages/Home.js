@@ -1,3 +1,4 @@
+import React from 'react';
 import AviaoPrincipal from '../IMG/AviaoPrincipal.jpg'
 function Home() {
   return (

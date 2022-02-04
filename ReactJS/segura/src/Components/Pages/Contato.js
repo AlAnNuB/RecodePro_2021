@@ -1,3 +1,4 @@
+import React from 'react';
 import VideoAviao from '../IMG/AviaoVideo.mp4'
 
 function Contato() {

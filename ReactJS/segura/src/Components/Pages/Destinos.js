@@ -1,3 +1,4 @@
+import React from 'react';
 import Alagoas from '../IMG/Alagoas.jpeg'
 import Amazonas from '../IMG/Amazonas.jpeg'
 import Ceara from '../IMG/Ceara.jpeg'

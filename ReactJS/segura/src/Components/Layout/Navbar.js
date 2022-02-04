@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom'
 
 import AviaoColorido from '../IMG/Avião-Colorido-em-PNG.png'
