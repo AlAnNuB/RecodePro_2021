@@ -9,8 +9,8 @@ function Promocao() {
   return (
     <main>
 
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <CardDesconto nome="Alagoas" img={Alagoas} ida="29/04/2022" desconto="3.470,00" preco="3.280,00" />
           <CardDesconto nome="Amazonas" img={Amazonas} ida="29/03/2022" desconto="4.470,00" preco="3.568,00" />
           <CardDesconto nome="Ceará" img={Ceara} ida="31/02/2022" desconto="8.753,00" preco="6.753,00" />
