@@ -15,6 +15,17 @@ Enviado dia : 	sábado, 5 fev 2022, 20:37
 
 
 
+Nota	9,00 / 10,00
+Avaliado em	segunda, 14 fev 2022, 18:10
+Avaliado por	Caio Teixeira
+Comentários de feedback	
+Parabéns pela atividade.
+
+Obs: Nem todas as páginas ficaram responsivas para telas menores. Fique atento com o scanner, ele acaba não lendo o nome quando vou fazer uma compra.
+
+
+
+
 Olá, Estudante!  
 
 Vamos a mais uma etapa para evolução do projeto Agência de Viagens, com recursos de interface usando React, relacionamento entre tabelas do Banco de Dados, manipulação de JSON e substituição do C# por Java. 
