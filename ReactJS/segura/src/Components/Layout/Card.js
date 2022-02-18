@@ -1,5 +1,5 @@
 import React from 'react'
-import { useCart } from '../Pages/CarrinhoContext';
+import { useCart } from '../../Context/CarrinhoContext';
 
 function Card(props, product) {
 

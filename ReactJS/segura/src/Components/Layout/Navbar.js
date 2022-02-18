@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { useCart } from '../Pages/CarrinhoContext';
+import { useCart } from '../../Context/CarrinhoContext';
 
 import AviaoColorido from '../IMG/Avião-Colorido-em-PNG.png'
 

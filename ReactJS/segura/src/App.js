@@ -8,7 +8,7 @@ import Promocao from './Components/Pages/Promocao'
 import Contato from './Components/Pages/Contato'
 import Footer from './Components/Layout/Footer'
 import Carrinho from './Components/Pages/Carrinho'
-import { CartProvider } from './Components/Pages/CarrinhoContext'
+import { CartProvider } from './Context/CarrinhoContext'
 
 function App() {
   return (
