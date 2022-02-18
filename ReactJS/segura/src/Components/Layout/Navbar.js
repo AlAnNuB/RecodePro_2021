@@ -1,11 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import { useCart } from '../Pages/CarrinhoContext';
 
 import AviaoColorido from '../IMG/Avião-Colorido-em-PNG.png'
-function Navbar() {
-  
-return (
 
+function Navbar() {
+
+const cart = useCart()
+//const itemsCount = Object.keys(cart.cart).length
+  const itemsCount = Object.keys(cart.cart).reduce((prev, curr) => {
+    return prev + cart.cart[curr].quantity
+  },0)
+
+return (
 <nav className="container-fluid navbar justify-content-center navbar-expand-sm bg-white shadow-sm">
   <ul className="navbar-nav ">
     <a className="navbar-brand" id="LogoHome"><Link to="/"><img src={AviaoColorido} alt="Home Logo" /></Link></a>
@@ -16,6 +23,7 @@ return (
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Carrinho">
         <i class="bi bi-cart3"> </i>
         Carrinho
+        { itemsCount > 0 && <span>({itemsCount})</span>}
         </Link>
       </li>
   </ul>

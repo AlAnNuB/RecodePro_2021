@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './App.css'
 import Navbar from './Components/Layout/Navbar'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Components/Pages/Home'
@@ -8,11 +8,11 @@ import Promocao from './Components/Pages/Promocao'
 import Contato from './Components/Pages/Contato'
 import Footer from './Components/Layout/Footer'
 import Carrinho from './Components/Pages/Carrinho'
+import { CartProvider } from './Components/Pages/CarrinhoContext'
 
 function App() {
   return (
-    
-
+    <CartProvider>
     <Router>
       <Navbar />
       <Routes>
@@ -24,7 +24,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-
+    </CartProvider>
   );
 }
 

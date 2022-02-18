@@ -1,3 +1,5 @@
+import React from 'react'
+
 function CardDesconto(props) {
   return(
     <div className="col-12 col-md-6 col-lg-4 col-xl-3">

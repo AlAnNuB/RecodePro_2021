@@ -15,10 +15,10 @@ import Tocantins from '../IMG/Tocantins.jpeg'
 
 import Cards from '../Layout/Card'
 
+
 function Destinos() {
   return (
     <main>
-
       <div className="container">
         <div className="row">
           <Cards nome="Alagoas" img={Alagoas} ida="29/04/2022" preco="3.280,00" />
