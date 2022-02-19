@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from 'react';
 import VideoAviao from '../IMG/AviaoVideo.mp4'
+import styled from 'styled-components'
 
 function Contato() {
 
   (function () {
-    'use strict'
     var forms = document.querySelectorAll('.needs-validation')
     Array.prototype.slice.call(forms)
       .forEach(function (form) {
@@ -18,15 +18,18 @@ function Contato() {
       })
   })()
   
+  const Video = styled.video`
+    max-width: 100%;
+    max-height: 500px;
+  `
   return(
     <main className="container-fluid">
       <div className="row">
         <div className="col-12 col-sm-6 mb-5 mt-3">
-          <figure>
-            <video className="mt-5 embed-responsive embed-responsive-16by9 rounded" id="Video" width="600" height="400" autoplay="true" loop muted>
+            <Video className="mt-5 embed-responsive embed-responsive-16by9 rounded" id="Video" width="600" height="400" autoPlay="true" loop muted>
               <source className="embed-responsive-item" src={VideoAviao} type="video/mp4" />
-            </video>
-          </figure>
+            </Video>
+
         </div>
         <div className="col-12 col-sm-6 align-self-center TextoEntrada mt-5">
           <h1> Segura na mão de Deus</h1>
