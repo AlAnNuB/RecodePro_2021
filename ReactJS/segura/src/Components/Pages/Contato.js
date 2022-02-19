@@ -49,7 +49,7 @@ function Contato() {
               <textarea className="form-control" name="taxtarea" id="inputTextarea" cols="30" rows="5"
                 placeholder="Digite seu texto aqui..." required></textarea>
             </div>
-            <button type="submit" className="btn btn-outline-primary mt-2">Enviar</button>
+            <button type="submit" className="btn btn-outline-primary btn-block mt-2">Enviar</button>
           </form>
         </div>
       </div>
