@@ -4,7 +4,7 @@ export const CarrinhoContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState({})
-  
+
   useEffect(() => {
     const cartLocal = window.localStorage.getItem('cart')
     if(cartLocal) {
@@ -28,8 +28,22 @@ export const CartProvider = ({ children }) => {
     return newCart
   })
   }
+
+  const removeFromCart = (productId) => {
+    setCart(old => {
+      const newCart = {}
+      Object.keys(old).forEach(id => {
+        if(id !== productId) {
+          newCart[id] = old[id]
+        }
+      })
+      window.localStorage.setItem('cart', JSON.stringify(newCart))
+      return newCart
+    })
+  }
+
   return(
-    <CarrinhoContext.Provider value={{cart, addToCart}}>
+    <CarrinhoContext.Provider value={{cart, addToCart, removeFromCart}}>
       {children}
     </CarrinhoContext.Provider>
   )

@@ -19,7 +19,7 @@ function Card(props, product) {
             <p className="card-text small m-0">Ida: {props.ida}</p>
             <p className="card-title text-danger font-weight-bold"><strong>R$ {props.preco}</strong></p>
           </div>
-          <button type="submit" onClick={add(product)} className="btn btn-outline-danger justify-content-center align-items-center m-2">
+          <button type="submit" onClick={add(props)} className="btn btn-outline-danger justify-content-center align-items-center m-2">
             <i className="bi bi-cart-plus-fill"> </i>
             Comprar
           </button>

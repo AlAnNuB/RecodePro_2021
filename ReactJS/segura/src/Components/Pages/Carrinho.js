@@ -3,6 +3,10 @@ import { useCart } from '../../Context/CarrinhoContext'
 
 function Carrinho(props) {
   const cart = useCart()
+
+  const remove = id => () => {
+    cart.removeFromCart(id)
+  }
   return (
 
     <div className="flex justify-center my-6">
@@ -25,38 +29,33 @@ function Carrinho(props) {
               {Object.keys(cart.cart).map(key => {
                 return (
                   <tr key={key}>
-                    <pre>{JSON.stringify(cart.cart[key], null ,2)}</pre>
                     <td className="hidden pb-4 md:table-cell">
                       <a href="#">
-                        <img src={cart.cart[key].img} />
+                        <img src={cart.cart[key].product.img} />
                       </a>
                     </td>
                     <td>
-                      <a href="#">
-                        <p className="mb-2 md:ml-4">Earphone</p>
-                        <form action="" method="POST">
-                          <button type="submit" className="text-gray-700 md:ml-4">
-                            <small>(Remove item)</small>
+                        <p className="mb-2 md:ml-4">{cart.cart[key].product.nome}</p>
+                          <button type="submit" className="text-gray-700 md:ml-4" onClick={remove(key)}>
+                            <small>(Remover item)</small>
                           </button>
-                        </form>
-                      </a>
                     </td>
                     <td className="justify-center md:justify-end md:flex mt-6">
                       <div className="w-20 h-10">
                         <div className="relative flex flex-row w-full h-8">
-                          <input type="number" value="2"
+                           <input type="number" value="1"
                             className="w-full font-semibold text-center text-gray-700 bg-gray-200 outline-none focus:outline-none hover:text-black focus:text-black" />
                         </div>
                       </div>
                     </td>
                     <td className="hidden text-right md:table-cell">
                       <span className="text-sm lg:text-base font-medium">
-                        10.00€
+                        R$ {cart.cart[key].product.preco}
                       </span>
                     </td>
                     <td className="text-right">
                       <span className="text-sm lg:text-base font-medium">
-                        20.00€
+                        R$ {cart.cart[key].product.preco}
                       </span>
                     </td>
                   </tr>
