@@ -13,6 +13,7 @@ export const CartProvider = ({ children }) => {
   },[])
   const addToCart = product => {
     setCart(old => {
+      console.log(cart)
       let quantity = 0 
       if (old[product.id]) {
         quantity = old[product.id].quantity
@@ -43,7 +44,7 @@ export const CartProvider = ({ children }) => {
   }
 
   return(
-    <CarrinhoContext.Provider value={{cart, addToCart, removeFromCart}}>
+    <CarrinhoContext.Provider value={{ cart, addToCart, removeFromCart }}>
       {children}
     </CarrinhoContext.Provider>
   )

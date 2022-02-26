@@ -21,7 +21,7 @@ return (
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Promocao">Promoção</Link></li>
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Contato">Contato</Link></li>
       <li className="nav-item m-2"><Link className="nav-link btn btn-lg btn-outline-primary" to="/Carrinho">
-        <i class="bi bi-cart3"> </i>
+        <i className="bi bi-cart3"> </i>
         Carrinho
         { itemsCount > 0 && <span>({itemsCount})</span>}
         </Link>

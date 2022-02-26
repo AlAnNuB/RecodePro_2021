@@ -1,7 +1,7 @@
 import React from 'react'
 import { useCart } from '../../Context/CarrinhoContext';
 
-function Card(props, product) {
+function Card(props) {
 
   const cart = useCart()
 
