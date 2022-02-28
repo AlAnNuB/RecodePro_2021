@@ -5,8 +5,8 @@ function Card(props) {
 
   const cart = useCart()
 
-  const add = (product) => () => {
-    cart.addToCart(product)
+  const add = (props) => () => {
+    cart.addToCart(props)
   }
 
   return (

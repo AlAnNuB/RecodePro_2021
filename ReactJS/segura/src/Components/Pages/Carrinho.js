@@ -9,7 +9,7 @@ function Carrinho(props) {
     cart.removeFromCart(id)
   }
   return (
-<Container>
+
     <div className="flex justify-center my-6">
       <div className="flex flex-col w-full p-8 text-gray-800 bg-white shadow-lg pin-r pin-y md:w-4/5 lg:w-4/5">
         <div className="flex-1">
@@ -68,7 +68,7 @@ function Carrinho(props) {
           <button type="button" class="btn btn-outline-secondary btn-lg btn-block">Comprar</button>
       </div>
     </div>
-    </Container>
+
   )
 }
 
