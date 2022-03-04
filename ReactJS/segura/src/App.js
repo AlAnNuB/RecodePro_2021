@@ -8,6 +8,7 @@ import Promocao from './Components/Pages/Promocao'
 import Contato from './Components/Pages/Contato'
 import Footer from './Components/Layout/Footer'
 import Carrinho from './Components/Pages/Carrinho'
+import ComprasFeitas from './Components/Pages/ComprasFeitas'
 import { CartProvider } from './Context/CarrinhoContext'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/Destinos" element={<Destinos />} />
           <Route path="/Promocao" element={<Promocao />} />
           <Route path="/Contato" element={<Contato />} />
+          <Route path="/ComprasFeitas" element={<ComprasFeitas />} />
           <Route path="/Carrinho" element={<Carrinho />} />
       </Routes>
       <Footer />
