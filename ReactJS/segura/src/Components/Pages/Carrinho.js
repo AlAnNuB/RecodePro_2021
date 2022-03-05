@@ -1,6 +1,7 @@
 import React from 'react'
 import { useCart } from '../../Context/CarrinhoContext'
-import Container from  '../Layout/Container'
+import ModalCarrinho from '../Layout/Modal'
+import { Form } from 'react-bootstrap'
 
 function Carrinho(props) {
   const cart = useCart()
@@ -8,6 +9,9 @@ function Carrinho(props) {
   const remove = id => () => {
     cart.removeFromCart(id)
   }
+
+  const [modalShow, setModalShow] = React.useState(false);
+
   return (
 
     <div className="flex justify-center my-6">
@@ -31,9 +35,7 @@ function Carrinho(props) {
                 return (
                   <tr key={key}>
                     <td className="hidden pb-4 md:table-cell">
-                      <a href="#">
-                        <img src={cart.cart[key].product.img} />
-                      </a>
+                      <img className="rounded" src={cart.cart[key].product.img} alt={cart.cart[key].product.nome} />
                     </td>
                     <td>
                       <p className="mb-2 md:ml-4 h5">{cart.cart[key].product.nome}</p>
@@ -65,7 +67,30 @@ function Carrinho(props) {
             </tbody>
           </table>
         </div>
-          <button type="button" class="btn btn-outline-secondary btn-lg btn-block">Comprar</button>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-12 col-sm-6">
+              <button type="button" onClick={() => setModalShow(true)} className="btn btn-outline-secondary btn-lg btn-block">
+                Comprar
+              </button>
+            </div>
+            <div className="col-12 col-sm-6 ">
+              <Form.Label htmlFor="ValorTotalCarrinho">Valor Total: </Form.Label>
+              <Form.Control 
+                type="number"
+                id="ValorTotalCarrinho"
+                aria-describedby="ValorTotalCarrinho"
+                disabled
+              />
+
+            </div>
+          </div>
+        </div>
+
+        <ModalCarrinho
+          show={modalShow}
+          onHide={() => setModalShow(false)}
+        />
       </div>
     </div>
 

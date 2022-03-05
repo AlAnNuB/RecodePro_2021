@@ -4,13 +4,15 @@ export const CarrinhoContext = createContext();
 
 export const CartProvider = ({ children }) => {
   const [cart, setCart] = useState({})
-
+ 
   useEffect(() => {
     const cartLocal = window.localStorage.getItem('cart')
     if(cartLocal) {
       setCart(JSON.parse(cartLocal))
     }
   },[])
+
+
   const addToCart = product => {
     setCart(old => {
       console.log(cart)
