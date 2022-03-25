@@ -2,6 +2,25 @@
 
 
 
+
+
+Nota	7,50 / 10,00
+Avaliado em	quinta, 24 mar 2022, 17:55
+Avaliado por	Caio Teixeira
+Comentários de feedback	
+Parabéns pela atividade, muito bom, estou feliz em ver sua evolução, parabéns.
+
+Obs: Faltou ligar o front com o back, e faltou criar todos os métodos do crud no back end.
+
+Dica: Tente futuramente implementar o login e ligar o front com o back.
+
+
+
+
+
+
+
+
 Atividade Prática do módulo 5
 Olá, Estudante, 
 
