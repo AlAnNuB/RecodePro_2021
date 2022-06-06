@@ -1,0 +1,20 @@
+.container {
+  width: 1200px;
+   justify-content: center;
+  margin: 0 auto;
+  height: 75vh;
+  border-radius: 20px;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.min-height {
+  min-height: 75%;
+}
