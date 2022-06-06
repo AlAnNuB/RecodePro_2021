@@ -1,0 +1,34 @@
+create database SeguraNaMaoDeDeus;
+
+use SeguraNaMaoDeDeus;
+
+create table Viagens(
+IdViagens int primary key auto_increment,
+Destinos varchar(50),
+Ida date,
+Preco decimal(8,2)
+);
+
+insert into Viagens (Destinos, Ida, Preco) values ('Alagoas', '2022-04-09', 3280.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Amazonas', '2022-03-29', 4470.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Ceará', '2022-02-25', 8753.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Florianopolis', '2022-05-14', 3953.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Goias', '2022-04-29', 5370.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Minas Gerais', '2022-10-26', 9470.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Paraíba', '2022-04-03', 2470.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Pernambuco', '2022-12-05', 4693.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Rio Grande do Norte', '2022-11-05', 5853.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Rio  Grande do Sul', '2022-10-30', 6824.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Rio de Janeiro', '2022-04-29', 1853.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Salvador', '2022-06-15', 5268.00);
+insert into Viagens (Destinos, Ida, Preco) values ('Tocantins', '2022-06-13', 5196.00);
+
+create table Clientes (
+	IdCliente int primary key auto_increment,
+    IdViagens int,
+    CPF varchar(11) not null,
+    Nome varchar(100) not null,
+    foreign key (IdViagens)
+    references Viagens(IdViagens)
+    on delete cascade
+);
