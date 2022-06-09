@@ -1,0 +1,117 @@
+DELIMITER $$
+
+CREATE FUNCTION RetornaNomePessoa(pIdPessoa int)
+
+RETURNS varchar(10)
+
+READS SQL DATA
+
+Begin
+
+return (select Nome from cadastro.Pessoa where idpessoa = pIdPessoa);
+
+end
+$$
+
+select RetornaNomePessoa(2);
+
+
+
+DELIMITER $$
+
+CREATE PROCEDURE hora ( )
+BEGIN
+select now() as hora ;
+END
+$$
+
+CALL cadastro.hora();
+
+
+
+DELIMITER $$
+
+CREATE PROCEDURE RetornaDataEHoraAtual ( )
+BEGIN
+select curdate() as Data,now() as DataHoraCompleta ;
+END
+$$
+
+CALL cadastro. RetornaDataEHoraAtual();
+
+
+DELIMITER $$
+
+CREATE PROCEDURE RetornaDataEHoraAtual ( )
+BEGIN
+select curdate() as Data,now() as DataHoraCompleta ;
+END
+$$
+
+CALL cadastro. RetornaDataEHoraAtual();
+
+
+
+DELIMITER $$
+
+CREATE PROCEDURE RetornaDataComAcrescimo (pDiasAAcrescentar int)
+BEGIN
+select DATE_ADD(curdate(), INTERVAL pDiasAAcrescentar Day) as DataAcrescida,now() as DataHoraCompleta ;
+END
+$$
+
+CALL cadastro.RetornaDataComAcrescimo(10);
+
+
+
+SELECT IF(500<1000 and 700<1000, (SELECT IF(800<1000, "YES2", "NO2")) , "NO1");
+
+
+
+
+
+
+
+
+
+DECLARE c INT DEFAULT 5;
+
+While c > 1 Do
+
+ select dia from base_prov_chamada;
+
+ SET c = c - 1;
+
+End While;
+
+
+
+
+
+DELIMITER &&
+CREATE PROCEDURE RetornaDataComDecremento ( pDiasARemover int )
+BEGIN
+select DATE_SUB(curdate(), INTERVAL pDiasARemover Day) as DataRemovida,now() as DataAtual ;
+END
+&&
+
+CALL Cadastro.RetornaDataComDecremento(100);
+
+
+
+
+
+
+
+CREATE TABLE Cadastro.Venda
+(
+IdVenda int auto_increment PRIMARY KEY NOT NULL,
+IdCliente int,
+DataHoraVenda datetime default now(),
+ValorVenda double,
+ValorImposto double,
+INDEX IndexCliente (IdCliente),
+FOREIGN KEY (IdCliente)
+REFERENCES Cliente(IdCliente)
+ON DELETE CASCADE);
+
