@@ -1,0 +1,31 @@
+
+public class Exercicio22 {
+
+	public static void main(String[] args) {
+		// 22. Gerar aleatoriamente um vetor A com 10 elementos inteiros e iguais a
+		// 0 e 1, sugestão: A[i] = (int)Math.round(Math.random() * 1); Pede-se
+		// para implementar um programa que determine o percentual de
+		// números 0's e 1's existentes no vetor A.
+		
+		int[] A = new int[10];
+		int i = 0;
+		float zero = 0;
+		float um = 0;
+		
+		while(A[i] < A.length) {
+			A[i] = (int)Math.round(Math.random() * 1);
+			
+			if(A[i] == 0) {
+				zero = (zero + A[i]) / A.length;
+			}else
+			if (A[i] == 1) {
+				um = (um + A[i]) / A.length;
+			}
+			
+			A[i]++;	
+		}
+		System.out.println("A porcentagem de ZERO: " + zero + " %");
+		System.out.println("A porcentagem de UM: " + um + " %");
+	}
+
+}

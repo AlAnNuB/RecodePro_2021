@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    CSS Bootstrap Baixado
+    <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.css">
+  -->
+  <!--CSS Bootstrap Online-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Aula 01</title>
+
+  <style>.x{border: 1px solid black}</style>
+</head>
+
+<body>
+
+
+  <div class="x container">
+
+    <!--Titulo:-->
+    <h1>Aula Bootstrap</h1>
+    <!--Botão-->
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <!--Grid-->
+    <div class="row">
+      <div class="col-sm">
+        <h1>Primeira Coluna</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus enim repellat error nisi iste! Omnis perferendis ut, laboriosam qui maiores porro, est facere doloremque saepe repellendus, itaque delectus aliquid?</p>
+      </div>
+      <div class="col-sm">
+        <h1>Segunda Coluna</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis ducimus, repellendus officia beatae deleniti, error ipsam vero porro placeat eaque repudiandae modi ipsa voluptates quisquam fugit fugiat! Hic, magnam.</p>
+      </div>
+      <div class="col-sm">
+        <h1>Terceira Coluna</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolor ipsa fugit culpa, vero delectus quaerat, incidunt earum ab voluptates quae velit aut ducimus alias impedit eligendi, at laudantium consequatur.</p>
+      </div>
+    </div>
+    <!--Tabela-->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm border border-danger">
+          Coluna 1 (linha 1)
+        </div>
+        <div class="col-sm border border-danger">
+          Coluna 2 (linha 1)
+        </div>
+        <div class="col-sm border border-danger">
+          Coluna 3 (linha 1)
+        </div>
+        <div class="col-sm border border-danger">
+          Coluna 4 (linha 1)
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm border border-danger">
+          Coluna 1 (linha 2)
+        </div>
+        <div class="col-sm border border-danger">
+          Coluna 2 (linha 2)
+        </div>
+        <div class="col-sm border border-danger">
+          Coluna 3 (linha 2)
+        </div>
+      </div>
+    </div>
+    <!--Background-->
+    <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+    <div class="p-3 mb-2 bg-secundary text-dark">.bg-secundary</div>
+    <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+    <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+    <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+    <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+    <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+    <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+    <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+    <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      <h1 class="display-4">Olá, Mundo!</h1>
+    
+      <p class="lead">Este é um simples componente Jumbotron pra chamar mais atenção a um determinado conteúdo ou informação.</p>
+    
+      <hr class="my-4">
+    
+      <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container. </p>
+    
+      <a class="btn btn-primary btn-lg" href="#" role="button">Leia Mais</a>
+    
+    </div>
+    <!--Alert-->
+    <div class="alert alert-primary" role="alert">
+      Um Simples Alerta Primary. Olha Só!
+    </div>
+    <div class="alert alert-secondary" role="alert">
+      Um Simples Alerta Secondary. Olha Só!
+    </div>
+    <div class="alert alert-success" role="alert">
+      Um Simples Alerta Success. Olha Só!
+    </div>
+    <div class="alert alert-danger" role="alert">
+      Um Simples Alerta Danger. Olha Só!
+    </div>
+    <div class="alert alert-warning" role="alert">
+      Um Simples Alerta Warning. Olha Só!
+    </div>
+    <div class="alert alert-info" role="alert">
+      Um Simples Alerta Info. Olha Só!
+    </div>
+    <div class="alert alert-light" role="alert">
+      Um Simples Alerta Light. Olha Só!
+    </div>
+    <div class="alert alert-dark" role="alert">
+      Um Simples Alerta Dark. Olha Só!
+    </div>
+    <!--Tabela-->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Primeiro</th>
+          <th>Ultimo</th>
+          <th>Nickname</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>The Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Primeiro</th>
+          <th>Ultimo</th>
+          <th>Nickname</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>The Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Primeiro</th>
+          <th>Ultimo</th>
+          <th>Nickname</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>The Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Primeiro</th>
+          <th>Ultimo</th>
+          <th>Nickname</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>The Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--Menu Dropdown-->
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown button
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </div>
+
+    
+
+  </div>
+
+
+
+  <!--
+     JS Bootstrap Baixado
+    <script src="bootstrap-4.1.3-dist/js/bootstrap.js"></script>
+  -->
+  <!-- JS Bootstrap Online -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+  
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Exercicio2 {
+
+	public static void main (String[] args) {
+		// Faça uma calculadora simples que faça as 4 operações
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Digite o primeiro numero:");
+		double n1 = scanner.nextDouble();
+		
+		Scanner scanner2 = new Scanner(System.in);
+		System.out.print("Digite o segundo numero:");
+		double n2 = scanner2.nextDouble();
+		
+		double soma = n1+n2;
+		double multiplicacao = n1*n2;
+		double subtracao = n1-n2;
+		double divisao = n1/n2;
+		
+		System.out.println("A soma é: "+ soma);
+		System.out.println("A subitração é: "+ subtracao);
+		System.out.println("A multiplicação é: "+ multiplicacao);
+		System.out.println("A divisão é: "+ divisao);
+
+	}
+
+}

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+  box-align: center;
+  text-align: center;
+  font-family: Arial;
+}
+
+.dp-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dp-menu ul {
+  background-color:#6d351a;
+}
+
+.dp-menu ul li {
+  display: inline;
+  position: relative;
+}
+
+.dp-menu ul li a {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: background .5s;
+}
+
+.dp-menu ul li a:hover {
+  background-color: #b8805d;
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+  display: none;
+  left: 0;
+  position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+  display: block;
+}
+
+.dp-menu ul ul {
+  width: 150px
+}
+
+.dp-menu ul ul li a {
+  display: block;
+}

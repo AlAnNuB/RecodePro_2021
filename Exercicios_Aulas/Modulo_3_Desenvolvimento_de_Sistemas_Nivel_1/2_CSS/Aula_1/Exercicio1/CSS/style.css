@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  font-size: 0; /* gambiarra pra tirar espaço entre as divs com display inline block */
+}
+
+body {
+  margin: 0;
+  font-size: 0;
+}
+
+div{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display:inline-block;
+  font-size: 0;
+}
+#div1 {
+  width: 800px;
+  height: 200px;
+  background-color: blue;
+  display: block;
+}
+
+#div2 {
+  width: 400px;
+  height: 500px;
+  background-color: blueviolet;
+  
+}
+#div3 {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+}

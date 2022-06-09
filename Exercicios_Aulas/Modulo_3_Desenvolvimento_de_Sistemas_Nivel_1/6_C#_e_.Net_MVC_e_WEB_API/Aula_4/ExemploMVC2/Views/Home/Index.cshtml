@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Pagina Inicial";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Trabalhando com HTML Helper</h1>
+    <p>Estamos Trabalhando com formulários com o HTML Helper</p>
+</div>
+
+@using (Html.BeginForm("Index", "Pagina Principal", FormMethod.Post))
+{
+    <Br />
+    @Html.Label("Nome: ")
+    @Html.TextBox("UserName")
+    <Br />
+    @Html.Label("Telefone: ")
+    @Html.TextBox("UserPhone")
+    <Br />
+    @Html.Label("Email: ")
+    @Html.TextBox("UserMail")
+    <Br />
+    @Html.Label("Senha: ")
+    @Html.TextBox("UserPassword")
+    <Br />
+    <Br />
+    @Html.Label("Sexo: ")
+    @Html.Label("M")
+    @Html.RadioButton("M", new { value = "Masculino"})
+    @Html.Label("F")
+    @Html.RadioButton("F", new { value = "Feminino"})
+    <Br />
+    <Br />
+    <input type="submit" value="enviar" />
+}

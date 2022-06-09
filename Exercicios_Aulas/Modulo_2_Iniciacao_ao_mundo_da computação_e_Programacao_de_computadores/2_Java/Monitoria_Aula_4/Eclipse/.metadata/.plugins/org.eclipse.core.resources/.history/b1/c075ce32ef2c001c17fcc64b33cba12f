@@ -1,0 +1,11 @@
+
+public class LampadaMain {
+
+	public static void main(String[] args) {
+	Lampada lampada1 = new Lampada();
+	
+	lampada1.lampadaLigada();
+		
+	}
+
+}

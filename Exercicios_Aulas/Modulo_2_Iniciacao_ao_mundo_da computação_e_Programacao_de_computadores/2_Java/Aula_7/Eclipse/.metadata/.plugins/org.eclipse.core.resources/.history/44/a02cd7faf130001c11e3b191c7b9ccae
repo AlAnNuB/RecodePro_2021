@@ -1,0 +1,9 @@
+
+public class Exercicio1Aluno {
+	private String nome;
+	private int matricula;
+	private double prova1;
+	private double prova2;
+	private double trabalho;
+
+}

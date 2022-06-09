@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class imc {
+
+	public static void main(String[] args) {
+		Scanner x = new Scanner(System.in);
+		System.out.println("Digite seu peso:");
+		double peso = x.nextDouble();
+		System.out.println("Digite sua altura:");
+		double altura = x.nextDouble();
+		double imc = (peso/(altura*altura));
+		System.out.println(imc);
+		
+		if(imc <= 18.5) {
+			System.out.println("Sua classificação é Magreza");
+		}else if 
+
+	}
+
+}

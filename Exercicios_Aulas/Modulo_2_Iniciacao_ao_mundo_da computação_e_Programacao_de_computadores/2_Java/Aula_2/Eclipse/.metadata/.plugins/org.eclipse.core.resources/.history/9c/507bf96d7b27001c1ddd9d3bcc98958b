@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class imc {
+
+	public static void main(String[] args) {
+		Scanner x = new Scanner(System.in);
+		System.out.println("Digite seu peso:");
+		int peso = x.nextInt();
+		System.out.println("Digite sua altura:");
+		int altura = x.nextInt();
+		
+		int imc = (peso/(altura*altura));
+		
+		System.out.println(imc);
+
+	}
+
+}

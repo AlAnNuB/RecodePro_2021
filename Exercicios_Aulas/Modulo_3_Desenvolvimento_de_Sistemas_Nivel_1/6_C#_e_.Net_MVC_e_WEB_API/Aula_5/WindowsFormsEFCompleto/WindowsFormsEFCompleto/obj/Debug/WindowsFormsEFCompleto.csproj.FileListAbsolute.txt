@@ -1,0 +1,16 @@
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\bin\Debug\WindowsFormsEFCompleto.exe.config
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\bin\Debug\WindowsFormsEFCompleto.exe
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\bin\Debug\WindowsFormsEFCompleto.pdb
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\bin\Debug\EntityFramework.dll
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\bin\Debug\EntityFramework.xml
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.csproj.AssemblyReference.cache
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.frmPrincipal.resources
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.Properties.Resources.resources
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.csproj.GenerateResource.cache
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.csproj.CoreCompileInputs.cache
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.csproj.CopyComplete
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.exe
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.pdb
+C:\Projetos Acadêmicos\Instituições\Recode Pro\2021\C#\Entity Framework Banco de Dados\WindowsFormsEFCompleto\WindowsFormsEFCompleto\obj\Debug\WindowsFormsEFCompleto.frmBuscar.resources

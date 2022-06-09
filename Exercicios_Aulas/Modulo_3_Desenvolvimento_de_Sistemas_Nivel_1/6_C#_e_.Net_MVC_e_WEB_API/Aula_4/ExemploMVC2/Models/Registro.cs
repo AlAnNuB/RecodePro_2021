@@ -1,0 +1,11 @@
+namespace ExemploMVC2.Models
+{
+  public class Registro
+  {
+    public string nome { get; set; }
+    public string telefone { get; set; }
+    public string email { get; set; }
+    public string genero { get; set; }
+    public string senha { get; set; }
+  }
+}

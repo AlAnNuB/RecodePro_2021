@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/home/alannub/Documentos/RecodePro/Modulo_2_Iniciacao_ao_mundo_da computação_e_Programacao_de_computadores/2_Java/Aula_6/Eclipse/.metadata/.plugins/org.eclipse.jdt.core
+357914101.index
+2363214380.index
+1865797976.index
+2480858670.index

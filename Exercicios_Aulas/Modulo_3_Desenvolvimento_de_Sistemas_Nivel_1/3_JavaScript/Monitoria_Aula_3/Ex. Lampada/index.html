@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        h1::before {
+            content: '';
+            width: 250px;
+            height: 3px;
+            display: block;
+            background-color: orange;
+            margin: 5px auto;
+        }
+
+        h1::after {
+            content: '';
+            width: 200px;
+            height: 3px;
+            display: block;
+            background-color: orange;
+            margin: 5px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aperte na Lampada!</h1>
+    <img src="MicrosoftTeams-image (3).png" alt="" id="img">
+    <button id="outra">Comprar outra Lampada</button>
+    <script src="script.js"></script>
+</body>
+</html>

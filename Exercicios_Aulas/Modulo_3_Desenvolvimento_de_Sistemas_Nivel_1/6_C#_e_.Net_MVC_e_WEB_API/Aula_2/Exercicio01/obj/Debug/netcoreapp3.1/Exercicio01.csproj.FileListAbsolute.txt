@@ -1,0 +1,13 @@
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/obj/Debug/netcoreapp3.1/Exercicio01.csprojAssemblyReference.cache
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/obj/Debug/netcoreapp3.1/Exercicio01.AssemblyInfoInputs.cache
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/obj/Debug/netcoreapp3.1/Exercicio01.AssemblyInfo.cs
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/obj/Debug/netcoreapp3.1/Exercicio01.csproj.CoreCompileInputs.cache
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/bin/Debug/netcoreapp3.1/Exercicio01
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/bin/Debug/netcoreapp3.1/Exercicio01.deps.json
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/bin/Debug/netcoreapp3.1/Exercicio01.runtimeconfig.json
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/bin/Debug/netcoreapp3.1/Exercicio01.runtimeconfig.dev.json
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/bin/Debug/netcoreapp3.1/Exercicio01.dll
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/bin/Debug/netcoreapp3.1/Exercicio01.pdb
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/obj/Debug/netcoreapp3.1/Exercicio01.dll
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/obj/Debug/netcoreapp3.1/Exercicio01.pdb
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_2/Exercicio01/obj/Debug/netcoreapp3.1/Exercicio01.genruntimeconfig.cache

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="recodeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="aluno">
+          <Key>
+            <PropertyRef Name="id_alu" />
+          </Key>
+          <Property Name="id_alu" Type="int" Nullable="false" />
+          <Property Name="nome" Type="char" MaxLength="50" Nullable="false" />
+          <Property Name="endereco" Type="char" MaxLength="60" />
+          <Property Name="bairro" Type="char" MaxLength="30" />
+          <Property Name="cidade" Type="char" MaxLength="30" />
+          <Property Name="uf" Type="char" MaxLength="2" />
+        </EntityType>
+        <EntityContainer Name="recodeModelStoreContainer">
+          <EntitySet Name="aluno" EntityType="Self.aluno" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="recodeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="aluno">
+          <Key>
+            <PropertyRef Name="id_alu" />
+          </Key>
+          <Property Name="id_alu" Type="Int32" Nullable="false" />
+          <Property Name="nome" Type="String" MaxLength="50" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="endereco" Type="String" MaxLength="60" FixedLength="true" Unicode="false" />
+          <Property Name="bairro" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="cidade" Type="String" MaxLength="30" FixedLength="true" Unicode="false" />
+          <Property Name="uf" Type="String" MaxLength="2" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="recodeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="aluno" EntityType="Self.aluno" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="recodeModelStoreContainer" CdmEntityContainer="recodeEntities">
+          <EntitySetMapping Name="aluno">
+            <EntityTypeMapping TypeName="recodeModel.aluno">
+              <MappingFragment StoreEntitySet="aluno">
+                <ScalarProperty Name="id_alu" ColumnName="id_alu" />
+                <ScalarProperty Name="nome" ColumnName="nome" />
+                <ScalarProperty Name="endereco" ColumnName="endereco" />
+                <ScalarProperty Name="bairro" ColumnName="bairro" />
+                <ScalarProperty Name="cidade" ColumnName="cidade" />
+                <ScalarProperty Name="uf" ColumnName="uf" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

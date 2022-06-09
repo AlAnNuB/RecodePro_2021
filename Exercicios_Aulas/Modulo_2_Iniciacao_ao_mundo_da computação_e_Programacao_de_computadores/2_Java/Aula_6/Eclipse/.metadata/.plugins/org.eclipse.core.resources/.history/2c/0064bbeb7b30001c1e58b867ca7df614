@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_x_nywDB7EeyV-cxGvWHLLw" name="Padaria">
+    <eAnnotations xmi:id="_ySvjEDB7EeyV-cxGvWHLLw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_ySwKIDB7EeyV-cxGvWHLLw" source="codegen">
+        <details xmi:id="_ySwKITB7EeyV-cxGvWHLLw" key="codegenDirectory" value="/Padaria/src"/>
+        <details xmi:id="_ykh2oDB7EeyV-cxGvWHLLw" key="AssociatedSourceCode" value="/Padaria/src/Bebida.java;3362705085/1;/Padaria/src/PadariaMain.java;1511783222/1;/Padaria/src/Pao.java;975310289/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_yeRdoDB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_yeSEsDB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_yeSrwDB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_yeSrwTB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_yeTS0DB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_yeTS0TB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_yeT54DB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_yeT54TB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_yeVIADB7EeyV-cxGvWHLLw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yeLXADB7EeyV-cxGvWHLLw" name="Bebida">
+      <ownedAttribute xmi:id="_yfAdcDB7EeyV-cxGvWHLLw" name="tipo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yfEH0DB7EeyV-cxGvWHLLw" name="marca" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yfHyMDB7EeyV-cxGvWHLLw" name="tamanho" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yfYQ4DB7EeyV-cxGvWHLLw" name="setar" specification="_yeankDB7EeyV-cxGvWHLLw">
+        <ownedParameter xmi:id="_yfYQ4TB7EeyV-cxGvWHLLw" name="tipo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yfYQ4jB7EeyV-cxGvWHLLw" name="marca">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yfYQ4zB7EeyV-cxGvWHLLw" name="tamanho">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.tipo = tipo;
+		this.marca = marca;
+		this.tamanho = tamanho;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yfZfADB7EeyV-cxGvWHLLw" name="getAtributos" specification="_yeeR8DB7EeyV-cxGvWHLLw">
+        <language>java</language>
+        <body>System.out.println(&quot;--------------------------------&quot;);
+		System.out.println(&quot;A bebida é : &quot; + tipo);
+		System.out.println(&quot;A marca é: &quot; + marca);
+		System.out.println(&quot;O tamanho dela é: &quot; + tamanho + &quot; cm&quot;);
+		System.out.println(&quot;--------------------------------&quot;);
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_yeankDB7EeyV-cxGvWHLLw" name="setar" method="_yfYQ4DB7EeyV-cxGvWHLLw">
+        <ownedParameter xmi:id="_yebOoDB7EeyV-cxGvWHLLw" name="tipo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yeb1sDB7EeyV-cxGvWHLLw" name="marca">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yeb1sTB7EeyV-cxGvWHLLw" name="tamanho">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_yeeR8DB7EeyV-cxGvWHLLw" name="getAtributos" method="_yfZfADB7EeyV-cxGvWHLLw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yeijYDB7EeyV-cxGvWHLLw" name="PadariaMain">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yfbUMDB7EeyV-cxGvWHLLw" name="main" specification="_yem00DB7EeyV-cxGvWHLLw">
+        <ownedParameter xmi:id="_yfbUMTB7EeyV-cxGvWHLLw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yfbUMjB7EeyV-cxGvWHLLw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>/*
+		 * Crie um projeto padaria, classe pão (tipo, peso, valor), bebidas (tipo,
+		 * marca, tamanho)
+		 * 
+		 * defina visibilidade use getters e setters
+		 * 
+		 * exiba na tela 3 produtos de cada
+		 */
+		
+		Bebida bebida = new Bebida();
+		Bebida bebida2 = new Bebida();
+		Bebida bebida3 = new Bebida();
+		Pao pao = new Pao();
+		Pao pao2 = new Pao();
+		Pao pao3 = new Pao();
+		
+		bebida.setar(&quot;Cachaça&quot;, &quot;havana&quot;, 56.8);
+		bebida.getAtributos();
+		bebida2.setar(&quot;Cachaça&quot;, &quot;Nova Esperança&quot;, 99.6);
+		bebida2.getAtributos();
+		bebida3.setar(&quot;Cerveja&quot;, &quot;Heinneken&quot;, 57.6);
+		bebida3.getAtributos();
+		
+		pao.setarPao(&quot;frances&quot;, 0.030, 0.20);
+		pao.getAtributosPao();
+		pao2.setarPao(&quot;Brioche&quot;, 0.5, 5.85);
+		pao2.getAtributosPao();
+		pao3.setarPao(&quot;Forma&quot;, 1.5, 12.89);
+		pao3.getAtributosPao();
+		
+		
+		/* Versão 1.0 feito na aula a parte de cima feito pelo discord com o Renan e com o Jonas
+		bebida.setMarcaBebida(&quot;Havana&quot;);
+		bebida.setTipoBebida(&quot;Cachaça&quot;);
+		bebida.setTamanhoBebida(27.4);
+		pao.setTipoPao(&quot;brioche&quot;);
+		pao.setPesoPao(0.380);
+		pao.setValorPao(17.9);
+		
+		bebida2.setMarcaBebida(&quot;Heinneken&quot;);
+		bebida2.setTipoBebida(&quot;Cerveja&quot;);
+		bebida2.setTamanhoBebida(17.4);
+		pao2.setTipoPao(&quot;Frances&quot;);
+		pao2.setPesoPao(0.034);
+		pao2.setValorPao(0.25);
+		
+		bebida3.setMarcaBebida(&quot;Nova Esperança&quot;);
+		bebida3.setTipoBebida(&quot;Cachaça&quot;);
+		bebida3.setTamanhoBebida(27.4);
+		pao3.setTipoPao(&quot;Forma&quot;);
+		pao3.setPesoPao(0.800);
+		pao3.setValorPao(8.95);
+
+		bebida.retornoBebida();
+		bebida2.retornoBebida();
+		bebida3.retornoBebida();
+		
+		pao.retornoPao();
+		pao2.retornoPao();
+		pao3.retornoPao();
+
+		bebida.getTipoBebida();
+		*/
+
+		
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_yem00DB7EeyV-cxGvWHLLw" name="main" isStatic="true" method="_yfbUMDB7EeyV-cxGvWHLLw">
+        <ownedParameter xmi:id="_yenb4DB7EeyV-cxGvWHLLw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yeoqADB7EeyV-cxGvWHLLw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yerGQDB7EeyV-cxGvWHLLw" name="Pao">
+      <ownedAttribute xmi:id="_yfMDoDB7EeyV-cxGvWHLLw" name="tipo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yfPuADB7EeyV-cxGvWHLLw" name="peso" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yfSKQDB7EeyV-cxGvWHLLw" name="valor" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yfciUDB7EeyV-cxGvWHLLw" name="setarPao" specification="_yewl0DB7EeyV-cxGvWHLLw">
+        <ownedParameter xmi:id="_yfciUTB7EeyV-cxGvWHLLw" name="tipo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yfciUjB7EeyV-cxGvWHLLw" name="peso">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yfciUzB7EeyV-cxGvWHLLw" name="valor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>this.tipo = tipo;
+		this.peso = peso;
+		this.valor = valor;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yfdwcDB7EeyV-cxGvWHLLw" name="getAtributosPao" specification="_ye0QMDB7EeyV-cxGvWHLLw">
+        <language>java</language>
+        <body>System.out.println(&quot;--------------------------------&quot;);
+		System.out.println(&quot;A Pão é : &quot; + tipo);
+		System.out.println(&quot;O peso é: &quot; + peso + &quot; Kg&quot;);
+		System.out.println(&quot;O Preço é: R$ &quot; + valor);
+		System.out.println(&quot;--------------------------------&quot;);
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_yewl0DB7EeyV-cxGvWHLLw" name="setarPao" method="_yfciUDB7EeyV-cxGvWHLLw">
+        <ownedParameter xmi:id="_yexM4DB7EeyV-cxGvWHLLw" name="tipo">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yexM4TB7EeyV-cxGvWHLLw" name="peso">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_yexz8DB7EeyV-cxGvWHLLw" name="valor">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ye0QMDB7EeyV-cxGvWHLLw" name="getAtributosPao" method="_yfdwcDB7EeyV-cxGvWHLLw"/>
+    </packagedElement>
+    <profileApplication xmi:id="_ySymYDB7EeyV-cxGvWHLLw">
+      <eAnnotations xmi:id="_ySymYTB7EeyV-cxGvWHLLw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_yS0bkDB7EeyV-cxGvWHLLw" base_Package="_x_nywDB7EeyV-cxGvWHLLw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yfDgwDB7EeyV-cxGvWHLLw" base_Element="_yfAdcDB7EeyV-cxGvWHLLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yfHLIDB7EeyV-cxGvWHLLw" base_Element="_yfEH0DB7EeyV-cxGvWHLLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yfKOcDB7EeyV-cxGvWHLLw" base_Element="_yfHyMDB7EeyV-cxGvWHLLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yfOf4DB7EeyV-cxGvWHLLw" base_Element="_yfMDoDB7EeyV-cxGvWHLLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yfRjMDB7EeyV-cxGvWHLLw" base_Element="_yfPuADB7EeyV-cxGvWHLLw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yfVNkDB7EeyV-cxGvWHLLw" base_Element="_yfSKQDB7EeyV-cxGvWHLLw"/>
+</xmi:XMI>

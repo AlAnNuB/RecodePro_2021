@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_vu9ncDBqEeyuLO7QILlZMQ">
+  <modelElement href="Padaria.uml#_cP94IDBqEeyuLO7QILlZMQ"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bokrgDBrEeyuLO7QILlZMQ" name="PadariaMain">
+    <modelElement href="Padaria.uml#_xlcA4DBqEeyuLO7QILlZMQ"/>
+    <visualProperties xmi:id="_bokrgTBrEeyuLO7QILlZMQ" position="397.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bokrgjBrEeyuLO7QILlZMQ" label="+"/>
+    <operations xmi:id="_bokrgzBrEeyuLO7QILlZMQ" name="main" staticOperation="true">
+      <modelElement href="Padaria.uml#_xliHgDBqEeyuLO7QILlZMQ"/>
+      <visibility xmi:id="_bokrhDBrEeyuLO7QILlZMQ" label="+"/>
+      <cardinality xmi:id="_bokrhTBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bokrhjBrEeyuLO7QILlZMQ" name="args">
+        <modelElement href="Padaria.uml#_xliukDBqEeyuLO7QILlZMQ"/>
+        <cardinality xmi:id="_bokrhzBrEeyuLO7QILlZMQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_bokriDBrEeyuLO7QILlZMQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_brxwgDBrEeyuLO7QILlZMQ" name="Pao">
+    <modelElement href="Padaria.uml#_xlr4gDBqEeyuLO7QILlZMQ"/>
+    <visualProperties xmi:id="_brxwgTBrEeyuLO7QILlZMQ" position="552.0,123.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_brxwgjBrEeyuLO7QILlZMQ" label="+"/>
+    <attributes xmi:id="_brxwgzBrEeyuLO7QILlZMQ" name="tipo">
+      <modelElement href="Padaria.uml#_xmo6wDBqEeyuLO7QILlZMQ"/>
+      <stereotypes xmi:id="_brxwhDBrEeyuLO7QILlZMQ" name="LegacyStyledElement">
+        <modelElement href="Padaria.uml#_xmr-EDBqEeyuLO7QILlZMQ"/>
+      </stereotypes>
+      <visibility xmi:id="_brxwhTBrEeyuLO7QILlZMQ" label="-"/>
+      <cardinality xmi:id="_brxwhjBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_brxwhzBrEeyuLO7QILlZMQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_brxwiDBrEeyuLO7QILlZMQ" name="peso">
+      <modelElement href="Padaria.uml#_xmtMMDBqEeyuLO7QILlZMQ"/>
+      <stereotypes xmi:id="_brxwiTBrEeyuLO7QILlZMQ" name="LegacyStyledElement">
+        <modelElement href="Padaria.uml#_xmvocDBqEeyuLO7QILlZMQ"/>
+      </stereotypes>
+      <visibility xmi:id="_brxwijBrEeyuLO7QILlZMQ" label="-"/>
+      <cardinality xmi:id="_bryXkDBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bryXkTBrEeyuLO7QILlZMQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bryXkjBrEeyuLO7QILlZMQ" name="valor">
+      <modelElement href="Padaria.uml#_xmyrwDBqEeyuLO7QILlZMQ"/>
+      <stereotypes xmi:id="_bryXkzBrEeyuLO7QILlZMQ" name="LegacyStyledElement">
+        <modelElement href="Padaria.uml#_xm1vEDBqEeyuLO7QILlZMQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bryXlDBrEeyuLO7QILlZMQ" label="-"/>
+      <cardinality xmi:id="_bryXlTBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bryXljBrEeyuLO7QILlZMQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bry-oDBrEeyuLO7QILlZMQ" name="setarPao">
+      <modelElement href="Padaria.uml#_xl0bYDBqEeyuLO7QILlZMQ"/>
+      <visibility xmi:id="_bry-oTBrEeyuLO7QILlZMQ" label="+"/>
+      <cardinality xmi:id="_bry-ojBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bry-ozBrEeyuLO7QILlZMQ" name="tipo">
+        <modelElement href="Padaria.uml#_xl1CcDBqEeyuLO7QILlZMQ"/>
+        <cardinality xmi:id="_bry-pDBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bry-pTBrEeyuLO7QILlZMQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bry-pjBrEeyuLO7QILlZMQ" name="peso">
+        <modelElement href="Padaria.uml#_xl1pgDBqEeyuLO7QILlZMQ"/>
+        <cardinality xmi:id="_bry-pzBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bry-qDBrEeyuLO7QILlZMQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_brzlsDBrEeyuLO7QILlZMQ" name="valor">
+        <modelElement href="Padaria.uml#_xl23oDBqEeyuLO7QILlZMQ"/>
+        <cardinality xmi:id="_brzlsTBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+        <type xmi:id="_brzlsjBrEeyuLO7QILlZMQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_brzlszBrEeyuLO7QILlZMQ" name="getAtributosPao">
+      <modelElement href="Padaria.uml#_xl6iADBqEeyuLO7QILlZMQ"/>
+      <visibility xmi:id="_brzltDBrEeyuLO7QILlZMQ" label="+"/>
+      <cardinality xmi:id="_brzltTBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bTZswDBrEeyuLO7QILlZMQ" name="Bebida">
+    <modelElement href="Padaria.uml#_xkbUQDBqEeyuLO7QILlZMQ"/>
+    <visualProperties xmi:id="_bTZswTBrEeyuLO7QILlZMQ" position="31.0,115.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bTaT0DBrEeyuLO7QILlZMQ" label="+"/>
+    <attributes xmi:id="_bTaT0TBrEeyuLO7QILlZMQ" name="tipo">
+      <modelElement href="Padaria.uml#_xmRHUDBqEeyuLO7QILlZMQ"/>
+      <visualProperties xmi:id="_zTGAEDBrEeyuLO7QILlZMQ"/>
+      <stereotypes xmi:id="_bTaT0jBrEeyuLO7QILlZMQ" name="LegacyStyledElement">
+        <modelElement href="Padaria.uml#_xmWm4DBqEeyuLO7QILlZMQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bTaT0zBrEeyuLO7QILlZMQ" label="-"/>
+      <cardinality xmi:id="_bTaT1DBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bTaT1TBrEeyuLO7QILlZMQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTaT1jBrEeyuLO7QILlZMQ" name="marca">
+      <modelElement href="Padaria.uml#_xmYcEDBqEeyuLO7QILlZMQ"/>
+      <visualProperties xmi:id="_zTIcUDBrEeyuLO7QILlZMQ"/>
+      <stereotypes xmi:id="_bTaT1zBrEeyuLO7QILlZMQ" name="LegacyStyledElement">
+        <modelElement href="Padaria.uml#_xmbfYDBqEeyuLO7QILlZMQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bTaT2DBrEeyuLO7QILlZMQ" label="-"/>
+      <cardinality xmi:id="_bTaT2TBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bTaT2jBrEeyuLO7QILlZMQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bTaT2zBrEeyuLO7QILlZMQ" name="tamanho">
+      <modelElement href="Padaria.uml#_xmdUkDBqEeyuLO7QILlZMQ"/>
+      <visualProperties xmi:id="_zTJqcDBrEeyuLO7QILlZMQ"/>
+      <stereotypes xmi:id="_bTaT3DBrEeyuLO7QILlZMQ" name="LegacyStyledElement">
+        <modelElement href="Padaria.uml#_xmjbMDBqEeyuLO7QILlZMQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bTaT3TBrEeyuLO7QILlZMQ" label="-"/>
+      <cardinality xmi:id="_bTaT3jBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bTaT3zBrEeyuLO7QILlZMQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bTa64DBrEeyuLO7QILlZMQ" name="setar">
+      <modelElement href="Padaria.uml#_xlJtADBqEeyuLO7QILlZMQ"/>
+      <visibility xmi:id="_bTa64TBrEeyuLO7QILlZMQ" label="+"/>
+      <cardinality xmi:id="_bTa64jBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bTa64zBrEeyuLO7QILlZMQ" name="tipo">
+        <modelElement href="Padaria.uml#_xlK7IDBqEeyuLO7QILlZMQ"/>
+        <cardinality xmi:id="_bTa65DBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bTa65TBrEeyuLO7QILlZMQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTa65jBrEeyuLO7QILlZMQ" name="marca">
+        <modelElement href="Padaria.uml#_xlLiMDBqEeyuLO7QILlZMQ"/>
+        <cardinality xmi:id="_bTa65zBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bTa66DBrEeyuLO7QILlZMQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_bTa66TBrEeyuLO7QILlZMQ" name="tamanho">
+        <modelElement href="Padaria.uml#_xlMwUDBqEeyuLO7QILlZMQ"/>
+        <cardinality xmi:id="_bTa66jBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bTa66zBrEeyuLO7QILlZMQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bTa67DBrEeyuLO7QILlZMQ" name="getAtributos">
+      <modelElement href="Padaria.uml#_xlUFEDBqEeyuLO7QILlZMQ"/>
+      <visibility xmi:id="_bTa67TBrEeyuLO7QILlZMQ" label="+"/>
+      <cardinality xmi:id="_bTa67jBrEeyuLO7QILlZMQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

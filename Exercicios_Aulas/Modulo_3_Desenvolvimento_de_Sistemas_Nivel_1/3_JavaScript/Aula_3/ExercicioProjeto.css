@@ -1,0 +1,25 @@
+html{
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+main{
+  text-align: center;
+  box-shadow: 2px 2px 10px burlywood;
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  background-color: darkblue;
+  color: beige;
+  font-weight: bold;
+}
+button:hover{
+  background-color: blue;
+  color: beige;
+  font-weight: bold;
+}
+div {
+  text-align: center;
+  box-shadow: 2px 2px 10px burlywood;
+}

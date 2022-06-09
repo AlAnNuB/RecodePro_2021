@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+ public static void main(String[] args) {
+// TODO Auto-generated method stub
+
+Aluno a1 = new Aluno();
+
+System.out.println("Digite o seu nome: ");
+Scanner sc = new Scanner(System.in);
+String nome = sc.nextLine();
+a1.setNome(nome);
+a1.setCurso("recode");
+a1.setMatricula(213);
+System.out.println();
+System.out.println(a1.getNome());
+System.out.println(a1.getCurso());
+System.out.println(a1.getMatricula());
+a1.addNotasEDisciplina(sc);
+a1.resultado();
+}
+}

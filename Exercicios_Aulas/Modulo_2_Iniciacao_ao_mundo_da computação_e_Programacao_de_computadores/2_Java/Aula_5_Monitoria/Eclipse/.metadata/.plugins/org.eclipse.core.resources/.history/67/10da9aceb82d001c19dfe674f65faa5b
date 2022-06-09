@@ -1,0 +1,14 @@
+
+public class Lampada {
+	private boolean ligado;
+	
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+
+	public boolean getLigado() {
+		return ligado;
+	}
+	
+	
+}

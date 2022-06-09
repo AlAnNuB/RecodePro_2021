@@ -1,0 +1,38 @@
+h1{
+  color: blue;
+  background-color: red;
+  font-family: Arial; 
+}
+
+#titulo {
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: lawngreen;
+  font-size: 70px;
+}
+
+hr {
+  border: 10px solid green;
+}
+
+p{
+  background-color: azure;
+  color: blueviolet;
+  width: 70%;
+  margin: auto;
+  border: 2px solid pink;
+}
+
+.lorem{
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px; 
+  padding: 2%; 
+}
+
+.direita{
+  text-align: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 2%;
+}

@@ -1,0 +1,4 @@
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_1/Exercicio04/obj/Debug/netcoreapp3.1/Exercicio04.csprojAssemblyReference.cache
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_1/Exercicio04/obj/Debug/netcoreapp3.1/Exercicio04.AssemblyInfoInputs.cache
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_1/Exercicio04/obj/Debug/netcoreapp3.1/Exercicio04.AssemblyInfo.cs
+/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Aula_1/Exercicio04/obj/Debug/netcoreapp3.1/Exercicio04.csproj.CoreCompileInputs.cache

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LamapaExemplo&apos; to &apos;LampadaExemplo&apos;&#x0A;- Original project: &apos;Aula4&apos;&#x0A;- Original element: &apos;LamapaExemplo&apos;&#x0A;- Renamed element: &apos;LampadaExemplo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LamapaExemplo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{LamapaExemplo.java[LamapaExemplo" matchStrategy="1" name="LampadaExemplo" qualified="false" references="true" similarDeclarations="false" stamp="1634132822229" textual="false" version="1.0"/>
+</session>

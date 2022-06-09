@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+
+div{
+  margin: 5px;
+  border: 0;
+  padding: 0;
+  display:inline-block;
+  font-size: 0;
+}
+#div1 {
+  width: 800px;
+  height: 200px;
+  background-color: blue;
+  display: block;
+}
+
+#div2 {
+  width: 400px;
+  height: 500px;
+  background-color: blueviolet;
+  
+}
+#div3 {
+  width: 400px;
+  height: 500px;
+  background-color: black;
+}

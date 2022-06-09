@@ -1,0 +1,21 @@
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		// Faça uma calculadora simples que faça as 4 operações
+		int n1 = 80;
+		int n2 = 35;
+		
+		int soma = n1+n2;
+		int multiplicacao = n1*n2;
+		int subtracao = n1-n2;
+		double divisao = n1/n2;
+		
+		System.out.println("A soma é: "+ soma);
+		System.out.println("A subitração é: "+ subtracao);
+		System.out.println("A multiplicação é: "+ multiplicacao);
+		System.out.println("A divisão é: "+ divisao);
+
+	}
+
+}

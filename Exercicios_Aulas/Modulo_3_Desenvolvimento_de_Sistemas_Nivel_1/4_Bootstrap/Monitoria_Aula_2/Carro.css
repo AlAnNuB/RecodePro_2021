@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+header {
+  background: url("./img/Carro_G.png") no-repeat;
+  background-position: center;
+  height: 80vh;
+  box-shadow: 0px 0px 10px 1px black;
+  filter: brightness(90%);
+}
+
+.divCarrossel {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.carousel {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 1px grey;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.carousel img {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+}
+
+.divContato {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}

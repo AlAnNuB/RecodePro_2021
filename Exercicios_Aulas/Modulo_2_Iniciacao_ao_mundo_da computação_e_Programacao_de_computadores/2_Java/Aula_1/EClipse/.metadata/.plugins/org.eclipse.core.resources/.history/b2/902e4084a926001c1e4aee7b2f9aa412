@@ -1,0 +1,20 @@
+
+public class aula1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String variavel = "Olá, Mundo!";
+		System.out.println(variavel);
+		System.out.println("Olá, Mundo! - 2");	
+		int n1 = 50;
+		int n2 = 30;
+		int n3 = n1+n2;
+		// Printar na tela n1
+		System.out.println(n1);
+		// Printar na tela n1+n2
+		System.out.println(n1+n2);
+		// Printar na tela n3
+		System.out.println(n3);
+	}
+
+}

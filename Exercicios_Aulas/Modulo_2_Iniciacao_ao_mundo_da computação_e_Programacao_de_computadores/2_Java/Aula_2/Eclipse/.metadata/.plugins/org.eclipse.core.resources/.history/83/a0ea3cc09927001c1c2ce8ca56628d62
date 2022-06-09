@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+	//	Para receber o nome de um aluno com suas respectivas notas (2), em seguida calcular a média 
+	//	do aluno e apresentar ao final a média calculada e a situação de Aprovação do aluno.
+	//	(aprovado com média >= 6).
+	//	(*) Utilizar o código para uma turma de 5 alunos.
+	//	(*) Calcular e mostrar a média geral da turma
+	//	(*) Mostrar a maior média da turma
+	//	(*) Mostrar a menor média da turma
+		double n3 = 0;
+		double n4 = 0;
+		
+		for(int i = 1; i <= 5; i++) {
+			Scanner x = new Scanner(System.in);
+			
+			System.out.println("Digite o nome do "+ i +" aluno");
+			String nome = x.nextLine();
+			System.out.println("Digite a 1 nota:");
+			int n1 = x.nextInt();
+			System.out.println("Digite a 2 nota:");
+			int n2 = x.nextInt();
+			
+			n3 = (n1+n2)/2;
+			
+			System.out.println("A média do " + nome + " é: " + n3);	
+			x.close();
+		}
+		
+		n4=(n4 + n3)/5;
+		System.out.println("A média total da turma é:"+ n4);	
+		
+	}
+
+}

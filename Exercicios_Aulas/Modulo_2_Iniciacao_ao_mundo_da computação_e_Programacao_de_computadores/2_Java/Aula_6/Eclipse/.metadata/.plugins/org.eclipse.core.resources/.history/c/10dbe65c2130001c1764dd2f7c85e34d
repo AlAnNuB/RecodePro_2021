@@ -1,0 +1,14 @@
+
+public class PadariaMain {
+
+	public static void main(String[] args) {
+		/* Crie um projeto padaria, classe pão (tipo, peso, valor), bebidas (tipo, marca, tamanho)
+		defina visibilidade
+		use getters e setters
+		exiba na tela 3 produtos de cada
+		*/
+		
+	
+	}
+
+}

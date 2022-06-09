@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class imc {
+
+	public static void main(String[] args) {
+		Scanner x = new Scanner(System.in);
+		System.out.println("Digite seu peso:");
+		int peso = x.nextInt();
+		System.out.println("Digite sua altura:");
+		int altura = x.nextInt();
+		
+		int imc = (peso/(altura*altura));
+		
+		
+		
+	switch (imc) {
+			case (imc < 18):
+				System.out.println("Você está Abaixo Do Peso!");
+			break;
+			case ((imc > 18) || (imc < 25)):
+				System.out.println("Voce está com Peso Normal!");
+			break;
+			
+	}
+		
+
+	}
+
+}

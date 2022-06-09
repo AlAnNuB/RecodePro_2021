@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Monitoria_Aula_5/MonitoriaCrud/MonitoriaCrud.csproj": {}
+  },
+  "projects": {
+    "/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Monitoria_Aula_5/MonitoriaCrud/MonitoriaCrud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Monitoria_Aula_5/MonitoriaCrud/MonitoriaCrud.csproj",
+        "projectName": "MonitoriaCrud",
+        "projectPath": "/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Monitoria_Aula_5/MonitoriaCrud/MonitoriaCrud.csproj",
+        "packagesPath": "/home/alannub/.nuget/packages/",
+        "outputPath": "/home/alannub/Documentos/RecodePro/Modulo_3_Desenvolvimento_de_Sistemas_Nivel_1/6_C#_e_.Net_MVC_e_WEB_API/Monitoria_Aula_5/MonitoriaCrud/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/alannub/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
