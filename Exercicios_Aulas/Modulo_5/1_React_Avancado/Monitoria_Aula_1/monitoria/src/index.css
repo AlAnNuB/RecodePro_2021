@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+@media(max-width:991px){
+    header{
+        height:auto;
+    }
+    .slogan{
+        margin-top: 0px;
+    }
+    .navRight a{
+        margin: 0px;
+    }
+    .navRight ul{
+        flex-direction: column;
+    }
+    .navLeft h3{
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    .nav{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+    .card{
+        margin-top: -20px;
+    }
+    .card img{
+        width: 400px;
+    }
+}
+
+@media(max-width:547px){
+    .slogan h2{
+        font-size: 35px;
+    }
+    .slogan p{
+       font-size: 14px; 
+    }
+    .slogan button{
+        width: 120px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .navLeft h3{
+        font-size: 20px;
+    }
+    .navRight a{
+        font-size: 16px;
+    }
+    .btnContato{
+        width: 150px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:455px){
+    .slogan h2{
+        font-size: 30px;
+    }
+    .slogan p{
+       font-size: 13px; 
+    }
+    .slogan div:nth-child(2){
+        width: 80%;
+    }
+    .slogan button{
+        width: 120px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .card img{
+        width: 300px;
+    }
+    .divImg img{
+        width: 120px;
+    }
+    .divForm h2{
+        font-size: 22px;
+    }
+}
+
+@media(max-width:400px){
+    .slogan h2{
+        font-size: 25px;
+    }
+    .card img{
+        width: 250px;
+    }
+    .divImg{
+        padding: 30px;
+    }
+    .divImg img{
+        width: 100px;
+    }
+}
+
+@media(max-width:350px){
+    .slogan h2{
+        font-size: 23px;
+    }
+    .slogan button{
+        width: 110px;
+        font-size: 13px;
+    }
+    .card img{
+        width: 210px;
+    }
+    .divImg img{
+        width: 70px;
+    }
+}

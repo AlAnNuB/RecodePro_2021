@@ -1,0 +1,53 @@
+ db.pessoa.update({nome:"Tania"},
+{$set:{endereco:{logradouro:"Av Teste 06",numero:888}}});
+
+db.pessoa.update({_id:ObjectId("6217fa7c4accc324195fc092")},
+{$set:{endereco:{logradouro:"Av 06",numero:333}}})
+
+db.pessoa.find();
+
+
+db.pessoa.insert({_id: ObjectId("6217fa7c4accc00000000011"),nome:"Tania",cpf:"70734746881", endereco: {logradouro:"Av Teste 06",numero:127},datacadastro:new Date()})
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+db.createCollection('cliente');
+
+show collections;
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+db.pessoa.deleteOne( { nome: "Luiz" } );
+
+db.pessoa.find().pretty();
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+db.cliente.insert({pessoaId:db.pessoa.find()[0]._id,dataultimavisita:new Date()});
+
+db.cliente.insert({pessoaId:db.pessoa.find()[1]._id,dataultimavisita:new Date()});
+
+db.cliente.insert({pessoaId:db.pessoa.find()[2]._id,dataultimavisita:new Date()});
+
+db.cliente.insert({pessoaId:db.pessoa.find()[3]._id,dataultimavisita:new Date()});
+
+db.cliente.find().pretty();
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+db.cliente.insert({pessoaId:ObjectId("6217fa7c4accc00000000011"),dataultimavisita:new Date()});
+
+

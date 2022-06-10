@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+    <a href="/index">Inicio</a>
+    <hr/>
+	<table>
+		<thead>
+			<tr>
+   			  <td>#</td>
+			  <td>Nome</td>
+			  <td>E-mail</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="contato: ${listaContatos}">
+   			  <td th:text="${contato.id}"></td>
+			  <td th:text="${contato.nome}"></td>
+			  <td th:text="${contato.email}"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

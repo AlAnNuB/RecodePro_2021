@@ -1,0 +1,29 @@
+{
+  "name": "servidor-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "webpack:server": "webpack --config webpack.server.js --watch",
+    "serve": "nodemon ./dist/bundle_server.js",
+    "start": "npm-run-all --parallel webpack:server serve"
+  },
+  "author": "Guilherme Ferreira",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+
+body{
+    background-color: rgb(63, 63, 170);
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.navLeft h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navRight ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+
+.navRight a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top:5px;
+    font-weight: bold;
+    font-size:18px;
+}
+
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.slogan > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slogan h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:45px;
+    color: white;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.267);
+    margin: 5px 5px;
+}
+
+.slogan h2:nth-child(2){
+    color: orange;
+}
+
+.slogan div:nth-child(2){
+    width: 50%;
+    color: white;
+    text-align: center;
+}
+
+.slogan button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    width: 150px;
+    margin: 10px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 17px;
+    transition: all .3s ease-in-out;
+    padding: 7px;
+}
+
+.slogan button:first-child{
+    background-color:blue;
+    box-shadow: 0px 10px 40px 1px rgba(0, 0, 255, 0.315);
+}
+
+.slogan a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.slogan button:last-child{
+    background-color:orange;
+    box-shadow: 0px 10px 40px 1px rgba(255, 166, 0, 0.247);
+}
+
+.slogan button:hover{
+    filter: brightness(90%);
+}
+
+.slogan i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.textLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.textLogin h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:45px;
+    color: white;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.24);
+}
+
+.divLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px 1px rgba(0, 0, 0, 0.274);
+    font-weight: bold;
+}
+
+
+.btnContato{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(204, 81, 59);
+    color: #fff;
+    font-weight: bold;
+    transition: all .4s ease-in-out;
+}
+
+.btnContato:hover{
+    background-color: rgb(163, 69, 53);
+    color: #fff;
+}
+
+@media(max-width:991px){
+    .navRight a{
+        margin: 0px;
+    }
+    .navRight ul{
+        flex-direction: column;
+    }
+    .navLeft h3{
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    .nav{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+}
+
+@media(max-width:547px){
+    .textLogin{
+        margin-top: 50px;
+    }
+    .textLogin h2{
+        font-size: 35px;
+    }
+    .slogan h2{
+        font-size: 35px;
+    }
+    .slogan p{
+       font-size: 14px; 
+    }
+    .slogan button{
+        width: 120px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 15px;
+        padding: 5px;
+    }
+    .navLeft h3{
+        font-size: 20px;
+    }
+    .navRight a{
+        font-size: 16px;
+    }
+    .btnContato{
+        width: 150px;
+        padding: 5px;
+    }
+}
+@media(max-width:455px){
+    .textLogin h2{
+        font-size: 30px;
+    }
+    .slogan h2{
+        font-size: 30px;
+    }
+    .slogan p{
+       font-size: 13px; 
+    }
+    .slogan div:nth-child(2){
+        width: 80%;
+    }
+    .slogan button{
+        width: 120px;
+        font-weight: bold;
+        color: #fff;
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:400px){
+    .slogan h2{
+        font-size: 25px;
+    }
+}
+
+@media(max-width:350px){
+    .slogan h2{
+        font-size: 23px;
+    }
+    .slogan button{
+        width: 110px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,11 @@
+.divCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media(max-width:760px){
+    .divCards{
+        flex-direction: column;
+    }
+}
